@@ -1,0 +1,43 @@
+---------------------------------------------------------------------------------------------------------------------------------------------
+           FLOW
+
+        PDF extraction(user_input)
+        |
+        |
+        SPELL CHECKER(pdf_text, dictionary corpus)
+        |
+        |
+        GRAMMAR CHECKER(spelling_corrected_text, scrapped_data)
+        |
+        |
+        PDF RECONSTRUCTION
+        |
+        |
+        JOIN IT ALL IN UI
+
+-----------------------------------------------------------------------------------------------------------------------
+
+
+1. extract text from pdf
+    -if its a pdf with selectable text then its much easier
+    - if its not...
+        ->Possible solution
+            = convert each slide/page into an image -> ocr those images
+
+2. use ngrams to the extracted text
+        (in this process, does it involve the webscrapping or WS is a diff step...)
+
+3. output = give back the modified pdf :)
+
+
+libs????????????// can we even use this???????????? **(YES)**
+
+pdf extraction
+
+-pymupdf
+-pdf2image
+-poppller
+-pytesseract (use this one)
+
+
+source venv/bin/activate

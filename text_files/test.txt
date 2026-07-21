@@ -1,0 +1,8 @@
+<!-- ('books', 'for', 'social')	8.0
+('for','social', 'life')	6.0
+('social', 'life', 'i')	5.0 -->
+
+books 4.0
+for 5.0
+social 4.0
+life 3.0

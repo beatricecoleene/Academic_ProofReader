@@ -1,0 +1,16 @@
+PHASE 0: corpus building
+        -> scrape text
+
+PHASE 1: tokenization & normalization
+
+PHASE 2: ngrams (char level)
+
+PHASE 3: scoring/ranking? 
+        -> can use levenshtein
+        -> jaccard? for narrowing candidate
+        -> both ?
+
+PHASE 4: context selection
+        -> 
+
+PHASE 4: final output

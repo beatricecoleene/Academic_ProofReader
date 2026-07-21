@@ -1,0 +1,24 @@
+
+P(w|h)
+
+P(w|h), the probability of a word w given some history h.
+- Suppose the history h is “The water of Walden Pond is so
+beautifully ”
+- and we want to know the probability that the next word is blue:
+
+P(blue|The water of Walden Pond is so beautifully)
+
+
+One way to estimate this probability is directly from relative frequency counts: take a
+very large corpus, count the number of times we see The water of Walden Pond
+is so beautifully, and count the number of times this is followed by blue. This
+would be answering the question “Out of the times we saw the history h, how many
+times was it followed by the word w”, as follows:
+P(blue|The water of Walden Pond is so beautifully) =
+C(The water of Walden Pond is so beautifully blue)
+C(The water of Walden Pond is so beautifully)
+
+
+
+
+WHAT IF IN USER INPUT, IN NORMALIZING PUT SPCA E BTWN THE WORD AND THE PUNCTUATION BUT IN NORMALIZING THE TRAINING DATA REMOCE PUNCTUation?
